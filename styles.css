@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Common styles for both navbars */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* Top Navbar */
+.top-navbar {
+  background: #000;
+  height: 30px; /* Reduced height */
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Added padding for margin from right side */
+  margin-right: 20px; /* Added margin from right side of the page */
+}
+
+.top-navbar .social-media {
+  margin-right: auto; /* Pushes social media icons to the left */
+}
+
+.top-navbar .top-menu {
+  margin-left: auto; /* Pushes menu items to the right */
+}
+
+.top-navbar .social-media li,
+.top-navbar .top-menu li {
+  display: inline-block;
+  margin-right: 15px; /* Adjusted margin for equal distance between items */
+}
+
+.top-navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-navbar a:hover {
+  color: red;
+}
+
+/* Adjusting icon sizes for social media */
+.top-navbar .social-media li img {
+  width: 20px; /* Adjusted width of icons */
+  height: auto;
+  margin-right: 15px; /* Adjusted margin for equal distance between items */
+}
+
+/* Bottom Navbar */
+.bottom-navbar {
+    background: #fff;
+    height: 50px; /* Reduced height */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bottom-navbar .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusted alignment */
+    height: 100%;
+    max-width: 90%;
+    margin: auto;
+    padding: 0 20px; /* Added padding for margin from the left */
+  }
+  
+  .bottom-navbar .navbar .logo img {
+    width: 40px; /* Adjusted width of the logo */
+    height: auto;
+  }
+  
+  .bottom-navbar .navbar .menu {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .navbar .menu li {
+    list-style: none;
+    margin: 0 10px; /* Adjusted margin for spacing between items */
+  }
+  
+  .navbar .menu li a {
+    color: #000;
+    font-size: 14px; /* Reduced font size */
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .navbar .menu li a:hover {
+    color: red;
+  }
+  
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+
+/* Add your section styling here */
+
+.button a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.logo{
+  margin: auto;
+}
